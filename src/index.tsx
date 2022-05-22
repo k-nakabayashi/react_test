@@ -1,6 +1,7 @@
+import './style/index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import IndexPage from './pages/index';
+import LayoutIndex from './layout/index';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -8,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <IndexPage />
+    <LayoutIndex />
   </React.StrictMode>,
 );
 
