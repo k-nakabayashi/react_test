@@ -9,6 +9,7 @@ const IndexPage = function () {
       <main className="test">
         <section>
           <h1>h1 aaaaa</h1>
+          <p className="text-white bg-black w-20">Hello world!</p>
         </section>
         <article>
           <section>
