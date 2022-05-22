@@ -1,7 +1,6 @@
 import { Fragment } from 'react';
 
 import Header from '../pages/index/components/header';
-import Footer from '../pages/index/components/footer';
 import IndexPage from '../pages/index/index';
 
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -18,9 +17,6 @@ const LayoutIndex = function () {
           <IndexPage />
         </main>
       </div>
-      <footer className="c-Footer">
-        <Footer />
-      </footer>
     </Fragment>
   );
 };

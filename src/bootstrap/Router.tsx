@@ -8,7 +8,7 @@ const Routers = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LayoutIndex />} />
-        <Route path="/auth" element={<LayoutAuth />} />
+        <Route path="auth/*" element={<LayoutAuth />} />
         <Route element={<NotFound />} />
       </Routes>
     </BrowserRouter>

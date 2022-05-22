@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import Header from '../pages/auth/components/header';
 import Footer from '../pages/auth/components/footer';
@@ -6,8 +7,9 @@ import SideMenu from '../pages/auth/components/sidemenu';
 
 /*動的に表示するMainComponent*/
 import IndexPage from '../pages/auth/index';
-
-// import { Router, Route } from "react-router-dom";
+import ProfilePage from '../pages/auth/profile/index';
+import TaskPage from '../pages/auth/tasks/index';
+import NewsPage from '../pages/auth/news/index';
 
 /**/
 const LayoutAuth = function () {
@@ -25,17 +27,86 @@ const LayoutAuth = function () {
 
         <main className="m-Content__main">
           {/* todo: ここを動的に切り替える */}
-          <IndexPage />
-          {/* <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<IndexPage/>}/>
-            </Routes>
-          </BrowserRouter> */}
-          {/* <Router>
-            <Route path="/" component={IndexPage} />
-          </Router> */}
+          <Routes>
+            <Route path="/" element={<IndexPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/task" element={<TaskPage />} />
+            <Route path="news" element={<NewsPage />} />
+          </Routes>
         </main>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <footer className="c-Footer">
         <Footer />
       </footer>
