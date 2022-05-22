@@ -1,10 +1,10 @@
 import { Fragment } from 'react';
 
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from '../pages/index/components/header';
+import Footer from '../pages/index/components/footer';
+import IndexPage from '../pages/index/index';
 
-import SideMenu from '../components/sidemenu';
-import IndexPage from '../pages/index';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const LayoutIndex = function () {
   return (
@@ -14,10 +14,6 @@ const LayoutIndex = function () {
       </header>
 
       <div className="m-Content">
-        <aside className="m-Content__sideMenue">
-          <SideMenu />
-        </aside>
-
         <main className="m-Content__main">
           <IndexPage />
         </main>

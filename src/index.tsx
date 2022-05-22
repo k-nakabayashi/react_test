@@ -1,15 +1,17 @@
 import './style/index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import LayoutIndex from './layout/index';
+// import LayoutIndex from './layout/index';
 import reportWebVitals from './reportWebVitals';
+
+import App from './bootstrap/App';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <LayoutIndex />
+    <App />
   </React.StrictMode>,
 );
 

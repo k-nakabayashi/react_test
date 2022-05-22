@@ -1,18 +1,20 @@
+import { Link } from 'react-router-dom';
+
 const MyHeader = function () {
   return (
     <nav className="c-Header__Nav">
       <ul>
         <li className="a-Link">
-          <a href="/">top</a>
+          <a href="/">Top</a>
         </li>
         <li className="a-Link">
-          <a href="/">profile</a>
+          <Link to="/">profile</Link>
         </li>
         <li className="a-Link">
-          <a href="/">task</a>
+          <Link to="/">task</Link>
         </li>
         <li className="a-Link">
-          <a href="/">news</a>
+          <Link to="/">news</Link>
         </li>
       </ul>
     </nav>

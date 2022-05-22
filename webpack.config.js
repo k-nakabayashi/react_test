@@ -21,3 +21,6 @@ rules: [
     }
   ]
 }
+devServer: {
+    historyApiFallback: true
+}
